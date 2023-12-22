@@ -19,7 +19,8 @@ button {
 } */
 
 .contador,
-.steps {
+.steps,
+.btn-reset {
   display: flex;
   padding: 5px;
   justify-content: center;
@@ -27,4 +28,9 @@ button {
 
 p {
   text-align: center;
+}
+
+.btn-reset button {
+  width: 100px;
+  padding: 10px 20px;
 }
