@@ -8,18 +8,6 @@ export default function App() {
   )
 }
 
-// function Steps() {
-//   const [steps, setSteps] = useState(0)
-
-//   return (
-//     <div className="steps">
-//       <button onClick={() => setSteps((s) => s - 5)}>-</button>
-//       <div>Step: {steps}</div>
-//       <button onClick={() => setSteps((s) => s + 5)}>+</button>
-//     </div>
-//   )
-// }
-
 function Count() {
   const [count, setCount] = useState(0)
   const [step, setStep] = useState(1)
